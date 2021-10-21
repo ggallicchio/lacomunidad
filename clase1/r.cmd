@@ -1,0 +1,1 @@
+java -jar target/cursoSpring-ALL.jar

@@ -1,0 +1,23 @@
+----------------------------------------------------------------------
+Notas curso Spring
+----------------------------------------------------------------------
+
+Spring como alternativa a EJB.
+
+Core de spring es un notor de injeccion de dependencia
+
+ServicioA  ----> ServicioB
+
+Lo que hacemos en java es
+
+class ServicioB {
+}
+
+class ServicioA {
+   private ServicioB serviciob;
+
+   public ServicioA(ServicioB serviciob) {
+      this.serviciob = serviciob;
+   }
+}
+
