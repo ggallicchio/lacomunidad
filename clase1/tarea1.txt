@@ -1,0 +1,28 @@
+Tengo una clase Credito
+
+class Credito {}
+
+que depende de una interfaz 
+
+interface SistemaAmortizacion {
+   void caluclarCuotas();
+}
+
+Luego voy a tener 3 sistemas de amortizacion
+
+class SistemaFrances implements SistemaAmortizacion
+class SistemaAleman implements SistemaAmortizacion
+class SistemaAmericano implements SistemaAmortizacion
+
+Tengo que lograr lo siguiente
+
+credito.obtenerCredito()
+y el output debe ser calculando sistema .... FRANCES|ALEMAN|AMERICANO
+
+Cual va a elegir spring ?????
+el que este anotado como @Component
+
+
+
+
+
